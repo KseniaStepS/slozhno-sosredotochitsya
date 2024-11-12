@@ -3,12 +3,13 @@
   и их переопределение под различные устройства
 */
 
+
 :root {
   --accent-color: #ff0070;
   --accent-color-with-background: #000028;
   --accent-heading-color: #db00ff;
   --text-color: #f1b2ce;
-  --button-hover-color: #ff007066;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
   --heading-color: #ff0070;
   --decorative-bracket-color: #ff0070;
   --menu-color: #ff0070;

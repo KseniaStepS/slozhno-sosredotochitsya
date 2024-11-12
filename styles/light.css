@@ -9,7 +9,7 @@
   --accent-color-with-background: #353430;
   --accent-heading-color: #ffc2e6;
   --text-color: #353430;
-  --button-hover-color: #32312d66;
+  --button-hover-color: rgba(50, 49, 45, 0.4);
   --heading-color: #353430;
   --decorative-bracket-color: #353430;
   --menu-color: #353430;
@@ -23,7 +23,7 @@
     --accent-color-with-background: #353430;
     --accent-heading-color: #ffc2e6;
     --text-color: #353430;
-    --button-hover-color: #32312d66;
+    --button-hover-color: rgba(50, 49, 45, 0.4);
     --heading-color: #353430;
     --decorative-bracket-color: #353430;
     --menu-color: #353430;
