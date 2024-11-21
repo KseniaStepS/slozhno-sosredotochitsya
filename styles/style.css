@@ -1,4 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+
+
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -6,7 +8,7 @@
   gap: var(--gap);
 }
 
-.grid-1 { 
+.grid-1 {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
 }
@@ -23,7 +25,7 @@
   flex-direction: column;
   gap: var(--gap);
 }
- 
+
 .container {
   margin: 0 auto;
   padding: 0 var(--paddingSM);
@@ -46,7 +48,7 @@
 .m-b-2 {
   margin-bottom: 20px;
 }
- 
+
 .main {
   padding: 40px 0;
 }
@@ -94,7 +96,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .header-section2 {
@@ -115,7 +117,7 @@ align-self: center;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-style: normal;
   font-weight: 700;
-  line-height: 82.5%; 
+  line-height: 82.5%;
 }
 
 .header__rec {
@@ -142,7 +144,7 @@ align-self: center;
   transform: translate(100%, -50%);
 }
 
-.header__theme-menu-list { 
+.header__theme-menu-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -245,7 +247,7 @@ align-self: center;
   background-color: var(--bg-color);
   background-image: var(--bgc-image);
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -316,7 +318,7 @@ align-self: center;
   .grid-2 {
     gap: var(--gap);
   }
-  .grid-3 { 
+  .grid-3 {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     gap: 75px;
@@ -332,7 +334,7 @@ align-self: center;
     justify-content: flex-start;
     align-items: center;
   }
-  .header__theme-menu-list { 
+  .header__theme-menu-list {
     flex-direction: row;
   }
   .header-section3__desc {
@@ -365,4 +367,3 @@ align-self: center;
     gap: 90px;
   }
 }
- 
